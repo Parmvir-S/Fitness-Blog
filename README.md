@@ -1,70 +1,51 @@
-# Getting Started with Create React App
+# Fitness Blog
+<p align="center">
+  <img src="https://mir-s3-cdn-cf.behance.net/project_modules/disp/ba231629889779.56095e6725201.gif" />
+</p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Purpose
 
-## Available Scripts
+The Fitness Blog is a web application that allows users to share fitness posts, blogs, or log their daily workouts. It was built using React, React Bootstrap, and Firebase, and makes use of the Firebase sign in with Google functionality.
 
-In the project directory, you can run:
+## Motivation
 
-### `npm start`
+The main motivation behind the development of the Fitness Blog was to build a platform where friends and I could share our workout logs and training programs, and keep each other accountable for our workouts. It was also an opportunity to try out new authentication strategies using Firebase's sign in with Google functionality.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Tech Stack
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+The Fitness Blog was built using the following technologies:
 
-### `npm test`
+-   React: A JavaScript library for building user interfaces
+-   React Bootstrap: A front-end framework for building responsive, mobile-first projects using Bootstrap
+-   Firebase: A cloud-based platform for building and scaling applications
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Features
 
-### `npm run build`
+The Fitness Blog includes the following features:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+-   Google sign in: Users can sign in to the Fitness Blog using their Google account.
+-   Post creation and deletion: Users can create posts and delete the posts that they have created themselves.
+-   Post feed: Users can view posts that others have posted in their feed.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Challenges
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+One challenge that I encountered while building the Fitness Blog was implementing the conditional rendering of components based on the user's authentication state. This involved setting up the necessary logic to determine when to show or hide certain components based on the user's login status.
 
-### `npm run eject`
+## Accomplishments
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Through building the Fitness Blog, I was able to achieve the following accomplishments:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+-   Learn how to use React, React Bootstrap, and Firebase to build a functional web application
+-   Implement a sign in with Google feature using Firebase
+-   Create a platform for users to share fitness posts and logs, and keep each other accountable for their workouts
+-   Practice coding skills and improve proficiency in React and Firebase.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Future Changes
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+There are a number of things that could be done to improve the Fitness Blog in the future. Some potential improvements could include:
 
-## Learn More
+-   Adding more features to the post creation form, such as the ability to add images or videos
+-   Implementing a comment system so users can interact with and discuss each other's posts
+-   Adding a search feature to allow users to find specific posts or users
+-   Integrating with additional APIs or services to provide more comprehensive fitness information and features.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
